@@ -68,18 +68,29 @@ h2 {
 }
 
 h3 {
-    text-align: right;
-    padding-right: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+h4 {
+    font-size: 50px;
+    background-color: grey;
+    padding-top: 10px;
 }
 
 h2, h3 {
     font-size: 30px;
+    background-color: grey;
 }
 
-table {
+table, th, tr, td {
     width: 40%;
-    text-align: left;
     border: 1px solid yellow;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px;
+    margin: 15px;
+    background-color: grey;
 }
 
 
