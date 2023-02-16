@@ -16,14 +16,21 @@ header {
 
 /*for the nav bar*/
     .container {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
+        position: fixed;
+        background-color: rgb(73, 80, 207);
     }
 
     .logo {
         float: left;
-        height: 7%;
-        width: 7%;
+        height: 6%;
+        width: 6%;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(73, 80, 207);
+
     }
 
     nav {
@@ -36,6 +43,8 @@ header {
     nav ul {
         margin: 0;
         padding: 0;
+        padding-right: 20px;
+        padding-bottom: auto;
         list-style: none;
 
     }
