@@ -31,6 +31,7 @@ header {
     }
     nav ul, li, a {
         background-color: rgb(73, 80, 207);
+        color: white;
     }
     nav ul {
         margin: 0;
@@ -79,18 +80,31 @@ h3 {
 
 h4 {
     font-size: 50px;
-    background-color: black;
     padding-top: 10px;
 }
 
 h2, h3 {
     font-size: 30px;
-    background-color: grey;
 }
 
+.team-name {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(73, 80, 207);
+    color: white;
+}
+
+.row {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 3px;
+}
 
 table, th, tr, td {
-    width: 40%;
+    box-sizing: border-box;
+    width: 47%;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
