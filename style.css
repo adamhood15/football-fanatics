@@ -10,7 +10,7 @@
 
 header {
     background-color: rgb(73, 80, 207);
-    height:100px;
+    height: 100px;
     width: 100%;
 }
 
@@ -21,48 +21,41 @@ header {
         position: fixed;
         background-color: rgb(73, 80, 207);
         border: 2px solid black;
-        display: block;
+        display: flex;
+        justify-content: space-between;
         
     }
 
     .container a:hover {
         background-color: rgb(255, 255, 128);
-        
         color: black;
     }
 
     .logo {
-        float: left;
-        height: 6%;
-        width: 6%;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        background-color: rgb(73, 80, 207);
-
+        height: 80px;
+        width: 114px;
+        align-self: center;
     }
 
-    nav {
-        float: right;
-    }
-    nav ul, li, a {
-        background-color: rgb(73, 80, 207);
-        color: white;
-    }
     nav ul {
+        height: 100%;
         margin: 0;
         padding: 0;
         padding-right: 20px;
         padding-bottom: auto;
         list-style: none;
-
+        display: flex;
     }
 
+    nav ul, li, a {
+        background-color: rgb(73, 80, 207);
+        color: white;
+    }
+
+
     nav li {
-        display: inline-block;
         margin-left: 50px;
         padding-top: 55px;
-        
     }
 
     nav a {
