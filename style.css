@@ -12,23 +12,26 @@ header {
     background-color: rgb(73, 80, 207);
     height: 100px;
     width: 100%;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 0px 0px black;
+    position: sticky;
 }
 
 /*for the nav bar*/
     .container {
         width: 100%;
-        margin: 0 auto;
-        position: fixed;
+        margin: 0;
         background-color: rgb(73, 80, 207);
-        border: 2px solid black;
         display: flex;
         justify-content: space-between;
         
     }
 
     .container a:hover {
-        background-color: rgb(255, 255, 128);
-        color: black;
+        border: 2px rgb(249, 252, 112);
+        background-color: rgb(111, 115, 194);
+        color: rgb(249, 252, 112);
+        border-bottom: 120%;
     }
 
     .logo {
@@ -53,9 +56,9 @@ header {
     }
 
 
-    nav li {
+    nav ul li {
         margin-left: 50px;
-        padding-top: 55px;
+        margin-top: 55px;
     }
 
     nav a {
@@ -82,6 +85,7 @@ h1 {
     margin: 50px;
     font-size: 50px;
 }
+
 
 h2 {
     font-size: 50px;
@@ -121,4 +125,12 @@ td {
 
 a {
     top: -50px;
+}
+
+
+@media (max-width: 1118px) {
+    .container nav ul li {
+        font-size: 10px;
+    }
+
 }
