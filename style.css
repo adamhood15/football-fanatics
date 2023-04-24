@@ -1,10 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "arial";
-    text-align: center;
-    background-color: rgb(228, 228, 228);
-    color: black;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -18,7 +15,7 @@ header {
 }
 
 /*for the nav bar*/
-    .container {
+    .nav-container {
         width: 100%;
         margin: 0;
         background-color: rgb(73, 80, 207);
@@ -27,7 +24,7 @@ header {
         
     }
 
-    .container a:hover {
+    .nav-container a:hover {
         border: 2px rgb(249, 252, 112);
         background-color: rgb(111, 115, 194);
         color: rgb(249, 252, 112);
@@ -79,6 +76,7 @@ hr {
     margin: 5%;
 }
 
+
 p {
     text-align: center;
     font-size: 30px;
@@ -101,35 +99,8 @@ h2 {
 
 }
 
-.team-name {
-    font-size: 30px;
-    text-align: center;
-    background-color: rgb(73, 80, 207);
-    color: white;
-}
 
-.tables {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 3px;
-}
 
-table, th, tr, td {
-    box-sizing: border-box;
-    width: 47%;
-    border: 2px solid black;
-    border-collapse: collapse;
-    text-align: left;
-    padding: 3px;
-    margin: 15px;
-    background-color: white;
-}
-
-td {
-    padding-left: 10px;
-}
 
 a {
     top: -50px;
@@ -137,7 +108,7 @@ a {
 
 
 @media (max-width: 997px) {
-    .container li {
+    .nav-container li {
         display: none;
     }
 
@@ -148,13 +119,6 @@ a {
     #homepicture {
         width: auto;
         height: auto;
-    }
-
-    .tables {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
     }
 
     #home-picture {
